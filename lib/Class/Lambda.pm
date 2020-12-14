@@ -57,7 +57,6 @@ sub new_class {
                     grep { $trait_name eq $_->('name') } @$traits;
                   },
     new        => sub {
-      my $class = $_[0];
       my %self;
       %self = (%$properties,
                %{$_[1]},
