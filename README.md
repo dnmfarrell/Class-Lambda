@@ -1,5 +1,7 @@
 `Class::Lambda` is a proof-of-concept object system for Perl built using only lexical scope and lambdas. It supports completely private state as well as other common features like inheritance, traits and meta-methods.
 
+It was described in this [Perl.com article](https://www.perl.com/article/closures-as-objects/).
+
 License
 -------
 Copyright 2020 David Farrell
